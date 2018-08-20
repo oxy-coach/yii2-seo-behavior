@@ -1,0 +1,22 @@
+{
+    "name": "oxy-coach/yii2-seo-behavior",
+    "description": "yii2 slug generating and seo filling helping behavior",
+    "keywords": ["yii2", "behavior", "slug", "seo", "generation"],
+    "homepage": "https://github.com/oxy-coach/yii2-seo-behavior",
+    "minimum-stability": "dev",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "oxy-coach",
+            "email": "kolchin.moon@gmail.com",
+            "homepage": "https://github.com/oxy-coach",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": { "oxycoach\\seobehavior\\": "" }
+    }
+}

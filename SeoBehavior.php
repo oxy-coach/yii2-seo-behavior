@@ -10,7 +10,7 @@ class SeoBehavior extends Behavior
 
     public $nameAttribute;
     public $slugAttribute = null;
-    public $transliterationFunction = 'oxycoach\seobehavior\TranslitHelper::createSlug';
+    public $transliterationFunction = 'oxycoach\seobehavior\TransliterationHelper::createSlug';
     public $seoAttributes = [];
 
     /**

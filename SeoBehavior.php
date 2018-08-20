@@ -50,7 +50,7 @@ class SeoBehavior extends Behavior
         $transliterationFunction = $this->transliterationFunction;
 
         // if slug field is empty, filling one with generated slug
-        if ($slugAttribute && $model->{$this->slugAttribute} == null) {
+        if ($this->slugAttribute && $model->{$this->slugAttribute} == null) {
             $model->{$this->slugAttribute} = $transliterationFunction($model->{$this->nameAttribute});
         }
 

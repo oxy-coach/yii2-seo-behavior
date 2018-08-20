@@ -14,7 +14,7 @@ class TransliterationHelper
     public static function createSlug(string $str)
     {
         $chpu = trim($str);
-        $chpu = self::translit($chpu);
+        $chpu = self::transliterate($chpu);
         $chpu = str_replace("'", '', $chpu);
         $chpu = str_replace('"', '', $chpu);
         $chpu = str_replace(" ", '-', $chpu);
